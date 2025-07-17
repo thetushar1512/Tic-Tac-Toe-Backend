@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bebas+Neue&family=Bitcount+Grid+Double:wght@100..900&family=Boldonse&family=Bonheur+Royale&family=Caveat:wght@400..700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Henny+Penny&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oi&display=swap');
+.Main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.join-btn{
+  height: 70px;
+  width: 300px;
+  font-size: 24px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 2px solid;
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn{
+  height: 120px;
+  width: 120px;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: #BAD8B6;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+.mainbody{
+  margin-top: 100px;
+  height: 390px;
+  width: 390px;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #E1EACD; /* yellow highlight */
+  transform: scale(1.05);
+}
